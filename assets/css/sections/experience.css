@@ -1,0 +1,90 @@
+/*--------------------------------------------------------------
+# Experience Section
+--------------------------------------------------------------*/
+.experience .col-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+.experience .col-head i {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--accent-color) 12%, transparent);
+  color: var(--accent-color);
+  font-size: 22px;
+}
+
+.experience .col-head h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.experience .timeline {
+  position: relative;
+  padding-left: 28px;
+}
+
+.experience .timeline::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: color-mix(in srgb, var(--default-color) 12%, transparent);
+}
+
+.experience .item {
+  position: relative;
+  padding-bottom: 32px;
+}
+
+.experience .item:last-child {
+  padding-bottom: 0;
+}
+
+.experience .item::before {
+  content: "";
+  position: absolute;
+  left: -28px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent-color);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent-color) 18%, transparent);
+}
+
+.experience .item .year {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-color);
+  margin-bottom: 6px;
+}
+
+.experience .item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.experience .item .org {
+  display: block;
+  font-size: 14px;
+  color: color-mix(in srgb, var(--default-color) 75%, transparent);
+  margin-bottom: 10px;
+}
+
+.experience .item p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+}

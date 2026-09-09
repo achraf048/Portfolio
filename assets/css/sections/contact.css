@@ -1,0 +1,119 @@
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+.contact .quick {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 28px;
+  margin-bottom: 32px;
+}
+
+.contact .quick a,
+.contact .quick span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--default-color);
+}
+
+.contact .quick a i,
+.contact .quick span i {
+  color: var(--accent-color);
+  font-size: 18px;
+}
+
+.contact .quick a:hover {
+  color: var(--accent-color);
+}
+
+.contact .php-email-form {
+  padding: 40px;
+  border-radius: 20px;
+  background: var(--surface-color);
+  border: 1px solid color-mix(in srgb, var(--default-color) 8%, transparent);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.contact .php-email-form .form-control {
+  height: 52px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--default-color) 18%, transparent);
+  background: var(--background-color);
+  color: var(--default-color);
+  font-size: 16px;
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+
+.contact .php-email-form .form-control::placeholder {
+  color: color-mix(in srgb, var(--default-color) 50%, transparent);
+}
+
+.contact .php-email-form .form-control:focus {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-color) 15%, transparent);
+}
+
+.contact .php-email-form textarea.form-control {
+  height: auto;
+  resize: vertical;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  background: #df1529;
+  color: #ffffff;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #ffffff;
+  background: #059652;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: var(--surface-color);
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid var(--accent-color);
+  border-top-color: var(--surface-color);
+  animation: php-email-form-loading 1s linear infinite;
+}
+
+@keyframes php-email-form-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 575px) {
+  .contact .php-email-form {
+    padding: 28px;
+  }
+}

@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------
+# Page Title / Breadcrumbs
+--------------------------------------------------------------*/
+.page-title {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  position: relative;
+}
+
+.page-title .heading {
+  padding: 120px 0 40px;  /* Increased top padding for fixed navbar */
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.page-title .heading h1 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+/* Remove breadcrumbs */
+.page-title nav {
+  display: none;
+}

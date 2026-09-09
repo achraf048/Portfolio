@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------
+# Responsive Overrides
+--------------------------------------------------------------*/
+/* Portfolio image consistency */
+.portfolio .shot {
+  aspect-ratio: 16 / 9;
+}
+
+/* Contact quick links on mobile */
+@media (max-width: 768px) {
+  .contact .quick {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact .quick a,
+  .contact .quick span {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Footer responsive */
+@media (max-width: 768px) {
+  .footer .footer-about p {
+    max-width: 100%;
+  }
+}

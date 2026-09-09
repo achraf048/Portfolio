@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------
+# Certifications Section
+--------------------------------------------------------------*/
+.certifications .q-card {
+  height: 100%;
+  margin: 0;
+  padding: 28px;
+  border-radius: 20px;
+  background: var(--surface-color);
+  border: 1px solid color-mix(in srgb, var(--default-color) 8%, transparent);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.certifications .q-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.09);
+}
+
+.certifications .q-card img {
+  border-radius: 12px;
+  width: 100%;
+  border: 1px solid color-mix(in srgb, var(--default-color) 10%, transparent);
+}
+
+.certifications .q-card h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.certifications .q-card .issuer {
+  font-size: 0.8rem;
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.certifications .q-card blockquote {
+  font-size: 0.85rem;
+  margin-top: 8px;
+  color: var(--default-color);
+  line-height: 1.5;
+}

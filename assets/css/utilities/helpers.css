@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------
+# Utility Classes
+--------------------------------------------------------------*/
+section,
+.section {
+  padding: 60px 0;
+  scroll-margin-top: 90px;
+  overflow: clip;
+}
+
+@media (max-width: 1199px) {
+  section,
+  .section {
+    scroll-margin-top: 66px;
+  }
+}
+
+/* Disable aos animation delay on mobile devices */
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}

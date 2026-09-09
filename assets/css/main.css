@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------
+# Main CSS - Entry Point
+# All styles are imported from partials
+--------------------------------------------------------------*/
+
+/* Base */
+@import "base/variables.css";
+@import "base/reset.css";
+@import "base/typography.css";
+
+/* Components */
+@import "components/header.css";
+@import "components/navigation.css";
+@import "components/footer.css";
+@import "components/buttons.css";
+@import "components/preloader.css";
+
+/* Sections */
+@import "sections/hero.css";
+@import "sections/services.css";
+@import "sections/skills.css";
+@import "sections/experience.css";
+@import "sections/page-title.css";
+@import "sections/portfolio.css";
+@import "sections/portfolio-details.css";
+@import "sections/certifications.css";
+@import "sections/process.css";
+@import "sections/cta.css";
+@import "sections/contact.css";
+
+/* Utilities */
+@import "utilities/helpers.css";
+@import "utilities/responsive.css";

@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+# Font & Color Variables
+--------------------------------------------------------------*/
+:root {
+  --default-font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Poppins", sans-serif;
+  --nav-font: "Inter", sans-serif;
+}
+
+/* Global Colors */
+:root {
+  --background-color: #0a1020;
+  --default-color: #aeb9cc;
+  --heading-color: #ffffff;
+  --accent-color: #38bdf8;
+  --surface-color: #192134;
+  --contrast-color: #ffffff;
+}
+
+/* Nav Menu Colors */
+:root {
+  --nav-color: #aeb9cc;
+  --nav-hover-color: #38bdf8;
+  --nav-mobile-background-color: #0a1020;
+  --nav-dropdown-background-color: #0a1020;
+  --nav-dropdown-color: #aeb9cc;
+  --nav-dropdown-hover-color: #38bdf8;
+}
+
+/* Color Presets */
+.light-background {
+  --background-color: #0f1626;
+  --surface-color: #18203a;
+}
+
+.dark-background {
+  --background-color: #06080f;
+  --default-color: #aeb9cc;
+  --heading-color: #ffffff;
+  --surface-color: #10172a;
+  --contrast-color: #06121f;
+}
+
+:root {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Achraf Chouki - Développeur Web & Applications Desktop</title>
+  <meta name="description" content="Achraf Chouki, 21 ans, étudiant en ingénierie. Développeur Node.js, Electron, Laravel, Bootstrap. Passionné par les applications web, desktop et la robotique.">
+  <meta name="keywords" content="Node.js, Electron, Laravel, Bootstrap, développement web, applications desktop, robotique, Achraf Chouki">
+
+  <!-- Favicons -->
+  <link href="assets/img/A.png" rel="icon">
+  <link href="assets/img/A.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .avatar img {
+      border-radius: 50%;
+      object-fit: cover;
+      width: 120px;
+      height: 120px;
+      margin-bottom: 1rem;
+    }
+    .service-rows .row-item {
+      text-decoration: none;
+    }
+    .quick a, .quick span {
+      background: #f8f9fa;
+      padding: 8px 16px;
+      border-radius: 40px;
+      text-decoration: none;
+      color: #1e293b;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .quick {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    @media (max-width: 768px) {
+      .quick { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <span class="mark">A</span>
+        <h1 class="sitename">chraf Chouki</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Accueil</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#experience">Parcours</a></li>
+          <li><a href="#portfolio">Projets</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="cta-btn d-none d-xl-inline-flex" href="#contact">Discutons <i class="bi bi-arrow-up-right"></i></a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-9" data-aos="fade-up" data-aos-delay="100">
+            <div class="avatar"><img src="https://placehold.co/400x400?text=Achraf" alt="Achraf Chouki" class="img-fluid"></div>
+            <span class="status"><span class="ping"></span> Disponible pour nouveaux projets</span>
+            <h1>Je suis <span class="hl">Achraf Chouki</span>, 21 ans — développeur d'applications <span class="hl">web & desktop</span></h1>
+            <p class="lead">Étudiant en ingénierie à l'EMSI Casablanca, je conçois des applications modernes avec Node.js, Electron, Laravel et Bootstrap. Passionné par la robotique et l'électronique.</p>
+            <div class="actions">
+              <a href="#portfolio" class="btn-main">Voir mes projets</a>
+              <a href="#contact" class="btn-line">Me contacter <i class="bi bi-arrow-right"></i></a>
+            </div>
+            <div class="socials" data-aos="fade-up" data-aos-delay="200">
+              <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Ce que je fais</h2>
+        <p>Des services adaptés à mes compétences actuelles</p>
+      </div>
+      <div class="container">
+        <div class="row g-0 service-rows">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+            <a href="#" class="row-item"><span class="n">01</span>
+              <div class="body"><h3>Applications Web Full-Stack</h3><p>Sites et applications web avec Laravel (PHP) ou Node.js (Express), intégration de bases de données et interfaces Bootstrap réactives.</p></div><i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div>
+          <div class="col-12" data-aos="fade-up" data-aos-delay="150">
+            <a href="#" class="row-item"><span class="n">02</span>
+              <div class="body"><h3>Applications Desktop (Electron)</h3><p>Création d'applications cross-platform (Windows, Mac, Linux) avec Electron, HTML/CSS et JavaScript, pour des outils métiers sur mesure.</p></div><i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div>
+          <div class="col-12" data-aos="fade-up" data-aos-delay="200">
+            <a href="#" class="row-item"><span class="n">03</span>
+              <div class="body"><h3>Interfaces Web Modernes</h3><p>Maquettes responsive avec HTML5, CSS3, Bootstrap et animations légères. Respect des bonnes pratiques d'accessibilité.</p></div><i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div>
+          <div class="col-12" data-aos="fade-up" data-aos-delay="250">
+            <a href="#" class="row-item"><span class="n">04</span>
+              <div class="body"><h3>Robotique & Électronique</h3><p>Programmation de microcontrôleurs (Arduino, ESP), conception de petits robots, automatismes et capteurs.</p></div><i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div>
+          <div class="col-12" data-aos="fade-up" data-aos-delay="300">
+            <a href="#" class="row-item"><span class="n">05</span>
+              <div class="body"><h3>Maintenance & Débogage</h3><p>Analyse de code existant, correction de bugs, optimisation des performances pour applications web et desktop.</p></div><i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Compétences techniques</h2>
+        <p>Les langages, frameworks et outils que j'utilise au quotidien</p>
+      </div>
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
+            <div class="intro"><h3>Du web au desktop, en passant par l'embarqué.</h3><p>Je construis des applications complètes, de la base de données à l'interface utilisateur. J'apprécie particulièrement l'écosystème JavaScript/Node.js et l'électronique pour créer des objets connectés ou des robots.</p>
+              <div class="tags">
+                <span>Node.js</span><span>Electron</span><span>Laravel</span><span>Bootstrap</span>
+                <span>JavaScript</span><span>PHP</span><span>HTML/CSS</span><span>MySQL/SQLite</span>
+                <span>Arduino/C++</span><span>Git</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+            <div class="skills-animation">
+              <div class="progress"><span class="skill"><span class="name">Node.js / Express</span> <i class="val">85%</i></span><div class="bar"><div class="progress-bar" role="progressbar" style="width:85%"></div></div></div>
+              <div class="progress"><span class="skill"><span class="name">Electron (apps desktop)</span> <i class="val">80%</i></span><div class="bar"><div class="progress-bar" role="progressbar" style="width:80%"></div></div></div>
+              <div class="progress"><span class="skill"><span class="name">Laravel / PHP</span> <i class="val">82%</i></span><div class="bar"><div class="progress-bar" role="progressbar" style="width:82%"></div></div></div>
+              <div class="progress"><span class="skill"><span class="name">HTML5 / CSS3 / Bootstrap</span> <i class="val">90%</i></span><div class="bar"><div class="progress-bar" role="progressbar" style="width:90%"></div></div></div>
+              <div class="progress"><span class="skill"><span class="name">Robotique / Arduino</span> <i class="val">75%</i></span><div class="bar"><div class="progress-bar" role="progressbar" style="width:75%"></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+      <div class="container section-title" data-aos="fade-up"><h2>Parcours</h2><p>Mon parcours d'étudiant-ingénieur et mes expériences clés</p></div>
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-head"><i class="bi bi-briefcase"></i><h3>Formation académique</h3></div>
+            <div class="timeline">
+              <div class="item">
+                <span class="year">2025 — Présent</span>
+                <h4>Cycle Ingénieur — Ingénierie Informatique & Réseaux</h4>
+                <span class="org">EMSI Casablanca</span>
+                <p>Spécialisation à venir : AI & Data Science. Actuellement, j'approfondis algorithmique avancée, architecture logicielle et systèmes d'information.</p>
+              </div>
+              <div class="item">
+                <span class="year">2023 — 2025</span>
+                <h4>DUT — Génie Informatique</h4>
+                <span class="org">EST FBS</span>
+                <p>Programmation C++ et Java, bases de données PL/SQL, administration des systèmes (Linux/Windows), développement web (HTML/CSS, PHP, Laravel). Obtention avec <strong>mention Très Bien</strong>.</p>
+              </div>
+              <div class="item">
+                <span class="year">2022 — 2023</span>
+                <h4>Baccalauréat Scientifique — Sciences Physiques</h4>
+                <span class="org">Lycée Charif El Idrissi</span>
+                <p>Obtention avec mention <strong>Bien</strong>.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-head"><i class="bi bi-trophy"></i><h3>Stages</h3></div>
+            <div class="timeline">
+              <div class="item">
+                <span class="year">Avril 2025 — Juin 2025</span>
+                <h4>Développeur Stagiaire</h4>
+                <span class="org">CAPRAM Casablanca</span>
+                <p>Développement d'une solution web autour de Sage Cloud 100. Conception d'interfaces et intégration de fonctionnalités.</p>
+              </div>
+              <div class="item">
+                <span class="year">Juillet 2024 — Août 2024</span>
+                <h4>Stage d'observation</h4>
+                <span class="org">Testing Factory Casablanca</span>
+                <p>Découverte des processus de test logiciel, validation et bonnes pratiques en qualité logicielle.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-5" data-aos="fade-up"><a href="#contact" class="btn-main"><i class="bi bi-download"></i> Télécharger mon CV</a></div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section (projets) -->
+    <section id="portfolio" class="portfolio section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projets sélectionnés</h2>
+        <p>Un aperçu de mes réalisations web, desktop et robotique</p>
+      </div>
+      <div class="container">
+        <div class="cases">
+
+          <!-- PROJET 1 : CyberShop - E-commerce PFE (EST FBS) -->
+          <article class="case" data-aos="fade-up" data-aos-delay="100">
+            <div class="row g-4 align-items-center">
+              <div class="col-lg-6">
+                <a href="portfolio-cybershop.html" class="shot">
+                  <img src="assets/img/projets/Cybershop.png" alt="CyberShop - Plateforme e-commerce" class="img-fluid">
+                </a>
+              </div>
+              <div class="col-lg-6">
+                <div class="copy">
+                  <span class="cat">PFE · Spring Boot · Angular · MySQL</span>
+                  <h3>CyberShop — Plateforme e-commerce complète</h3>
+                  <p>Projet de fin d'études (DUT) : développement d'une plateforme e-commerce avec Spring Boot (JWT, Spring Security), Angular, et MySQL. Fonctionnalités : catalogue produits, panier, commandes, dashboard admin (gestion produits/utilisateurs/statistiques), espace livreur.</p>
+                  <a href="portfolio-cybershop.html" class="more">Voir le projet <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJET 2 : CAPRAM - Gestion des impayés et renversements -->
+          <article class="case reverse" data-aos="fade-up" data-aos-delay="100">
+            <div class="row g-4 align-items-center">
+              <div class="col-lg-6 order-lg-2">
+                <a href="portfolio-capram.html" class="shot">
+                  <img src="assets/img/projets/Capram.png" alt="CAPRAM" class="img-fluid">
+                </a>
+              </div>
+              <div class="col-lg-6 order-lg-1">
+                <div class="copy">
+                  <span class="cat">Stage PFE · Laravel · jQuery · SQL Server</span>
+                  <h3>Gestion des impayés & renversements (CAPRAM)</h3>
+                  <p>Application interne développée chez CAPRAM Casablanca pour pallier les lacunes de Sage 100 Cloud. Création de paquets d'impayés/renversements, validation, impression, gestion des rôles (3 profils), architecture multi-entreprises, DataTables dynamiques.</p>
+                  <a href="portfolio-capram.html" class="more">Voir le projet <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="case" data-aos="fade-up" data-aos-delay="100">
+            <div class="row g-4 align-items-center">
+              <div class="col-lg-6">
+                <a href="#" class="shot">
+                  <img src="assets/img/projets/Nomos.png" alt="Robot suiveur de ligne" class="img-fluid">
+                </a>
+              </div>
+              <div class="col-lg-6">
+                <div class="copy">
+                  <span class="cat">Desktop . Electron . Law . Electron Store</span>
+                  <h3>Nomos — Application desktop de gestion des lois</h3>
+                  <p>Application Electron pour gérer des codes juridiques (Constitution, lois organiques, codes). Organisation en catégories, sections et chapitres. Export PDF, recherche full-text, thème clair/sombre, stockage physique des images. Architecture modulaire avec per-law files.</p>
+                  <a href="portfolio-nomos.html" class="more">En savoir plus <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Certifications</h2>
+        <p>Attestations officielles obtenues (Cisco, Coursera, EPFL)</p>
+      </div>
+      <div class="container">
+        <div class="row g-4">
+
+          <!-- NEWEST FIRST -->
+
+          <!-- 1. Mai 2026 - Software Design & Project Management (NEWEST) -->
+          <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-delay="100">
+            <figure class="q-card">
+              <img src="assets/img/certifications/soft_eng_cert.png" alt="Software Design and Project Management" class="img-fluid mb-3" style="border-radius: 12px; width: 100%; border: 1px solid #e2e8f0;">
+              <h4 style="font-size: 1rem; font-weight: 700;">Software Design & Project Management</h4>
+              <p style="font-size: 0.8rem; color: #4f46e5; font-weight: 500;">HKUST (Coursera) — Mai 2026</p>
+              <blockquote style="font-size: 0.8rem; margin-top: 0.5rem;">Conception logicielle, gestion de projet agile, cycle de vie.</blockquote>
+            </figure>
+          </div>
+
+          <!-- 2. Mai 2026 - Using Python to Access Web Data -->
+          <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-delay="150">
+            <figure class="q-card">
+              <img src="assets/img/certifications/web_acc_pyth.png" alt="Python to Access Web Data" class="img-fluid mb-3" style="border-radius: 12px; width: 100%; border: 1px solid #e2e8f0;">
+              <h4 style="font-size: 1rem; font-weight: 700;">Using Python to Access Web Data</h4>
+              <p style="font-size: 0.8rem; color: #4f46e5; font-weight: 500;">Univ. Michigan (Coursera) — Mai 2026</p>
+              <blockquote style="font-size: 0.8rem; margin-top: 0.5rem;">Extraction données web, APIs, parsing XML/JSON, scraping.</blockquote>
+            </figure>
+          </div>
+
+          <!-- 3. Jan 2026 - JavaScript, jQuery and JSON -->
+          <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-delay="200">
+            <figure class="q-card">
+              <img src="assets/img/certifications/js_cert.png" alt="JavaScript, jQuery and JSON" class="img-fluid mb-3" style="border-radius: 12px; width: 100%; border: 1px solid #e2e8f0;">
+              <h4 style="font-size: 1rem; font-weight: 700;">JavaScript, jQuery and JSON</h4>
+              <p style="font-size: 0.8rem; color: #4f46e5; font-weight: 500;">Univ. Michigan (Coursera) — Jan 2026</p>
+              <blockquote style="font-size: 0.8rem; margin-top: 0.5rem;">Manipulation DOM, AJAX, JSON, intégration jQuery.</blockquote>
+            </figure>
+          </div>
+
+          <!-- 4. Déc 2025 - Programmation orientée objet (C++) -->
+          <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-delay="250">
+            <figure class="q-card">
+              <img src="assets/img/certifications/c++_cert.png" alt="Programmation orientée objet C++" class="img-fluid mb-3" style="border-radius: 12px; width: 100%; border: 1px solid #e2e8f0;">
+              <h4 style="font-size: 1rem; font-weight: 700;">Programmation orientée objet (C++)</h4>
+              <p style="font-size: 0.8rem; color: #4f46e5; font-weight: 500;">EPFL (Coursera) — Déc 2025</p>
+              <blockquote style="font-size: 0.8rem; margin-top: 0.5rem;">Classes, héritage, polymorphisme, encapsulation en C++.</blockquote>
+            </figure>
+          </div>
+
+          <!-- 5. Python Essentials 1 (Cisco / OpenEDG) -->
+          <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-delay="300">
+            <figure class="q-card">
+              <img src="assets/img/certifications/pyth_cert.png" alt="Python Essentials 1 - Cisco" class="img-fluid mb-3" style="border-radius: 12px; width: 100%; border: 1px solid #e2e8f0;">
+              <h4 style="font-size: 1rem; font-weight: 700;">Python Essentials 1</h4>
+              <p style="font-size: 0.8rem; color: #4f46e5; font-weight: 500;">Cisco / OpenEDG</p>
+              <blockquote style="font-size: 0.8rem; margin-top: 0.5rem;">Programmation Python 3, algorithmique, préparation certification PCEP.</blockquote>
+            </figure>
+          </div>
+
+          <!-- 6. Fév 2024 - Networking Devices & Initial Config -->
+          <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-delay="350">
+            <figure class="q-card">
+              <img src="assets/img/certifications/ND&IC_cert.png" alt="Networking Devices - Cisco" class="img-fluid mb-3" style="border-radius: 12px; width: 100%; border: 1px solid #e2e8f0;">
+              <h4 style="font-size: 1rem; font-weight: 700;">Networking Devices & Initial Config</h4>
+              <p style="font-size: 0.8rem; color: #4f46e5; font-weight: 500;">Cisco — Fév 2024</p>
+              <blockquote style="font-size: 0.8rem; margin-top: 0.5rem;">Sous-réseau IPv4, ARP, DNS/DHCP, TCP/UDP, initiation Cisco IOS.</blockquote>
+            </figure>
+          </div>
+
+          <!-- 7. Networking Basics (OLDEST) -->
+          <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-delay="400">
+            <figure class="q-card">
+              <img src="assets/img/certifications/netw_basics_cert.png" alt="Networking Basics - Cisco" class="img-fluid mb-3" style="border-radius: 12px; width: 100%; border: 1px solid #e2e8f0;">
+              <h4 style="font-size: 1rem; font-weight: 700;">Networking Basics</h4>
+              <p style="font-size: 0.8rem; color: #4f46e5; font-weight: 500;">Cisco Networking Academy</p>
+              <blockquote style="font-size: 0.8rem; margin-top: 0.5rem;">Concepts réseau, Ethernet, IPv4/IPv6, configuration routeur sans fil et outils de diagnostic.</blockquote>
+            </figure>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process section">
+      <div class="container section-title" data-aos="fade-up"><h2>Ma méthode de travail</h2><p>Simple, collaborative et orientée résultats</p></div>
+      <div class="container"><div class="row g-4 steps">
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100"><div class="step"><span class="num">01</span><i class="bi bi-chat-dots"></i><h3>Analyse des besoins</h3><p>Comprendre votre projet, vos objectifs et vos contraintes techniques.</p></div></div>
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200"><div class="step"><span class="num">02</span><i class="bi bi-pencil-square"></i><h3>Prototypage & Maquettes</h3><p>Création d'interfaces claires (Bootstrap, HTML/CSS) et validation itérative.</p></div></div>
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300"><div class="step"><span class="num">03</span><i class="bi bi-code-square"></i><h3>Développement</h3><p>Codage avec Node.js, Laravel ou Electron, tests réguliers et livraisons partielles.</p></div></div>
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400"><div class="step"><span class="num">04</span><i class="bi bi-rocket-takeoff"></i><h3>Déploiement & Support</h3><p>Mise en ligne, documentation et assistance post-livraison.</p></div></div>
+      </div></div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta section dark-background">
+      <div class="container" data-aos="zoom-in" data-aos-delay="100"><div class="row justify-content-center text-center"><div class="col-lg-8"><div class="cta-center"><span class="kicker">Collaborons</span><h2>Un projet d'application web, desktop ou robotique ?</h2><p>Je suis disponible pour des missions freelance, des stages ou des collaborations. Parlons de votre idée !</p><a href="#contact" class="btn-main">Commencer un projet <i class="bi bi-arrow-right"></i></a><span class="note"><i class="bi bi-clock"></i> Réponse sous 24h</span></div></div></div></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up"><h2>Me contacter</h2><p>Envoyez-moi un message, je vous répondrai rapidement</p></div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100"><div class="row justify-content-center"><div class="col-lg-8">
+        <div class="quick"><a href="mailto:achraf@chouki.dev"><i class="bi bi-envelope"></i> achraf@chouki.dev</a><a href="tel:+212612345678"><i class="bi bi-telephone"></i> +212 6 12 34 56 78</a><span><i class="bi bi-geo-alt"></i> Casablanca, Maroc</span></div>
+        <form action="forms/contact.php" method="post" class="php-email-form"><div class="row gy-3"><div class="col-md-6"><input type="text" name="name" class="form-control" placeholder="Votre nom" required=""></div><div class="col-md-6"><input type="email" name="email" class="form-control" placeholder="Votre email" required=""></div><div class="col-12"><input type="text" name="subject" class="form-control" placeholder="Sujet" required=""></div><div class="col-12"><textarea name="message" class="form-control" rows="6" placeholder="Décrivez votre projet ..." required=""></textarea></div><div class="col-12 text-center"><div class="loading">Chargement</div><div class="error-message"></div><div class="sent-message">Message envoyé ! Merci de votre intérêt.</div><button type="submit" class="btn-submit">Envoyer le message</button></div></div></form>
+      </div></div></div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container footer-top"><div class="row gy-4"><div class="col-lg-4 col-md-12 footer-about"><a href="index.html" class="logo d-flex align-items-center"><span class="sitename">Achraf Chouki</span></a><p>Développeur web & desktop (Node.js, Electron, Laravel, Bootstrap). Étudiant ingénieur à l'EMSI Casablanca, passionné de robotique.</p><div class="social-links d-flex mt-4"><a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a><a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></div></div>
+      <div class="col-lg-2 col-6 footer-links"><h4>Navigation</h4><ul><li><a href="#hero">Accueil</a></li><li><a href="#services">Services</a></li><li><a href="#portfolio">Projets</a></li><li><a href="#certifications">Certifications</a></li><li><a href="#contact">Contact</a></li></ul></div>
+      <div class="col-lg-3 col-6 footer-links"><h4>Compétences clés</h4><ul><li><a href="#skills">Node.js / Electron</a></li><li><a href="#skills">Laravel / PHP</a></li><li><a href="#skills">Bootstrap / HTML/CSS</a></li><li><a href="#skills">Robotique / Arduino</a></li></ul></div>
+      <div class="col-lg-3 col-md-12 footer-contact"><h4>Coordonnées</h4><p><strong>Email :</strong> achraf@chouki.dev</p><p><strong>Tél :</strong> +212 6 12 34 56 78</p><p><strong>Localisation :</strong> Casablanca, Maroc</p></div>
+    </div></div>
+    <div class="container copyright text-center mt-4"><p>© Achraf Chouki — Template adapté de Workfolio (BootstrapMade)</p></div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

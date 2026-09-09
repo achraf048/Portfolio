@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>CyberShop - Détails du projet | Achraf Chouki</title>
+  <meta name="description" content="Plateforme e-commerce complète développée avec Spring Boot et Angular - Projet de fin d'études (PFE) du DUT Génie Informatique à l'EST FBS.">
+  <meta name="keywords" content="Spring Boot, Angular, e-commerce, Java, MySQL, JWT, projet PFE, Achraf Chouki">
+
+  <!-- Favicons -->
+  <link href="assets/img/A.png" rel="icon">
+  <link href="assets/img/A.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .spaced-section {
+      margin-top: 5rem;
+    }
+    .highlights {
+      margin-bottom: 1.5rem;
+    }
+    .tech-badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      font-weight: 600;
+      padding: 0.2rem 0.6rem;
+      border-radius: 20px;
+      margin-right: 0.3rem;
+      letter-spacing: 0.3px;
+      color: #fff;
+    }
+    .tech-badge.spring {
+      background: #6db33f;
+    }
+    .tech-badge.angular {
+      background: #dd0031;
+    }
+    .tech-badge.mysql {
+      background: #4479a1;
+    }
+    .tech-badge.bootstrap {
+      background: #7952b3;
+    }
+    .tech-badge.java {
+      background: #007396;
+    }
+  </style>
+
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <span class="mark">A</span>
+        <h1 class="sitename">chraf Chouki</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero">Accueil</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#skills">Compétences</a></li>
+          <li><a href="index.html#experience">Parcours</a></li>
+          <li><a href="index.html#portfolio">Projets</a></li>
+          <li><a href="index.html#certifications">Certifications</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="cta-btn d-none d-xl-inline-flex" href="index.html#contact">Discutons <i class="bi bi-arrow-up-right"></i></a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>CyberShop — Plateforme e-commerce</h1>
+              <p class="mb-0">Projet de fin d'études (PFE) · DUT Génie Informatique · EST FBS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html#portfolio">Projets</a></li>
+            <li class="current">CyberShop</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-8">
+            <div class="swiper gallery init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": 1,
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="assets/img/cybershop/cybershop-1.png" alt="Dashboard Admin CyberShop" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="assets/img/cybershop/cybershop-2.png" alt="Interface boutique CyberShop" class="img-fluid"></div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <aside class="meta-card">
+              <h3>Informations projet</h3>
+              <ul>
+                <li><span class="lbl">Catégorie</span><span class="val">Application Web (e-commerce)</span></li>
+                <li><span class="lbl">Contexte</span><span class="val">Projet de fin d'études (DUT Génie Informatique) — EST FBS</span></li>
+                <li><span class="lbl">Période</span><span class="val">Avril 2025 — Juin 2025</span></li>
+                <li><span class="lbl">Stack technique</span><span class="val">Spring Boot . Angular . MySQL . JWT . Bootstrap</span></li>
+                <li><span class="lbl">Rôle</span><span class="val">Développeur full-stack (travail en binôme)</span></li>
+              </ul>
+              <a href="assets/pdf/RAPPORT_PFE_ACHRAF_CHOUKI.pdf" class="btn-main" target="_blank">
+                <i class="bi bi-file-pdf"></i> Télécharger le rapport (PDF)
+              </a>
+            </aside>
+          </div>
+
+        </div>
+
+        <div class="row justify-content-center mt-5">
+          <div class="col-lg-10">
+            <article class="writeup" data-aos="fade-up" data-aos-delay="200">
+              <h2>CyberShop — une plateforme e-commerce complète avec Spring Boot et Angular</h2>
+              <p class="lead">Développement d'une plateforme de vente en ligne avec gestion des produits, panier, commandes, authentification JWT, espace administrateur (dashboard) et espace livreur.</p>
+
+              <h3>Contexte du projet</h3>
+              <p>Ce projet a été réalisé dans le cadre de mon <strong>Projet de Fin d'Études (PFE)</strong> pour l'obtention du Diplôme Universitaire de Technologie (DUT) en Génie Informatique à l'<strong>EST FBS</strong>. L'objectif était de concevoir une plateforme e-commerce moderne, sécurisée et évolutive, de sa conception à son déploiement.</p>
+
+              <h3>Architecture technique</h3>
+              <p>L'application repose sur une architecture full-stack :</p>
+              <ul>
+                <li><strong>Backend</strong> : Java avec Spring Boot (Spring Security, JWT, Spring Data JPA, Hibernate)</li>
+                <li><strong>Frontend</strong> : Angular 17 avec TypeScript, Bootstrap et Angular Material</li>
+                <li><strong>Base de données</strong> : MySQL (gestion des utilisateurs, produits, commandes, catégories)</li>
+                <li><strong>API REST</strong> : communication sécurisée entre frontend et backend via JWT (stocké en cookie HttpOnly)</li>
+                <li><strong>Outils</strong> : Maven, Git/GitHub, Postman (tests API), Notion (gestion de projet Agile)</li>
+              </ul>
+
+              <h3>Fonctionnalités principales</h3>
+              <div class="row g-3 highlights">
+                <div class="col-md-4">
+                  <div class="hl">
+                    <i class="bi bi-person"></i>
+                    <div>
+                      <strong>Côté client</strong>
+                      <small class="d-block mt-1">Inscription/connexion, catalogue produits, recherche/filtres, panier, historique commandes, avis.</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="hl">
+                    <i class="bi bi-shield-lock"></i>
+                    <div>
+                      <strong>Admin (dashboard)</strong>
+                      <small class="d-block mt-1">Gestion produits, utilisateurs, commandes, catégories, statistiques ventes, assignation livreur.</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="hl">
+                    <i class="bi bi-truck"></i>
+                    <div>
+                      <strong>Livreur</strong>
+                      <small class="d-block mt-1">Visualisation des livraisons assignées, mise à jour du statut de livraison.</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="spaced-section"></div>
+
+              <h3 style="margin-top:20px;">Sécurité</h3>
+              <p>L'authentification repose sur <strong>JSON Web Tokens (JWT)</strong> stockés en cookies HttpOnly pour prévenir les attaques XSS. Les mots de passe sont hachés (BCrypt). Les accès aux routes sont protégés selon les rôles (USER, ADMIN, DELIVERER).</p>
+
+              <h3>Méthodologie</h3>
+              <p>Le projet a été développé en suivant une approche <strong>Agile (Scrum)</strong> avec des sprints de 2 semaines. La gestion des tâches a été centralisée sur Notion (tableau Kanban).</p>
+
+              <h3>Défis techniques</h3>
+              <ul>
+                <li><strong>Gestion des sessions</strong> : Mise en place de l'authentification JWT avec refresh token pour maintenir la session utilisateur.</li>
+                <li><strong>Panier d'achat</strong> : Gestion du panier en session avec persistance des données entre les pages.</li>
+                <li><strong>Statistiques en temps réel</strong> : Dashboard admin avec graphiques dynamiques (Chart.js).</li>
+                <li><strong>Assignation des livraisons</strong> : Système d'assignation automatique des commandes aux livreurs disponibles.</li>
+                <li><strong>Déploiement</strong> : Mise en production sur serveur avec configuration de l'environnement (variables d'environnement, base de données en ligne).</li>
+              </ul>
+
+              <h3>Résultat</h3>
+              <p>La plateforme est fonctionnelle, responsive, et a été déployée en environnement de test. Ce projet a contribué à l'obtention de la mention <strong>Très Bien</strong> lors de la soutenance devant le jury de l'EST FBS.</p>
+
+              <div class="text-center mt-5">
+                <a href="assets/pdf/RAPPORT_PFE_ACHRAF_CHOUKI.pdf" class="btn-main" target="_blank">
+                  <i class="bi bi-download"></i> Télécharger le rapport complet (PDF)
+                </a>
+              </div>
+
+            </article>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Achraf Chouki</span>
+          </a>
+          <p>Développeur web & desktop (Node.js, Electron, Laravel, Bootstrap). Étudiant ingénieur à l'EMSI Casablanca, passionné de robotique.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html#hero">Accueil</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#portfolio">Projets</a></li>
+            <li><a href="index.html#certifications">Certifications</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6 footer-links">
+          <h4>Compétences clés</h4>
+          <ul>
+            <li><a href="index.html#skills">Node.js / Electron</a></li>
+            <li><a href="index.html#skills">Laravel / PHP</a></li>
+            <li><a href="index.html#skills">Bootstrap / HTML/CSS</a></li>
+            <li><a href="index.html#skills">Robotique / Arduino</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-12 footer-contact">
+          <h4>Coordonnées</h4>
+          <p><strong>Email :</strong> achraf@chouki.dev</p>
+          <p><strong>Tél :</strong> +212 6 12 34 56 78</p>
+          <p><strong>Localisation :</strong> Casablanca, Maroc</p>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright text-center mt-4">
+      <p>© Achraf Chouki — Template adapté de Workfolio (BootstrapMade)</p>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

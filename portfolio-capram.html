@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Gestion des impayés - Détails du projet | Achraf Chouki</title>
+  <meta name="description" content="Application web de gestion des impayés et renversements bancaires développée avec Laravel, jQuery et SQL Server - Projet de stage PFE chez CAPRAM Casablanca.">
+  <meta name="keywords" content="Laravel, jQuery, SQL Server, impayés, renversements, Sage 100 Cloud, projet PFE, Achraf Chouki">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <span class="mark">A</span>
+        <h1 class="sitename">chraf Chouki</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero">Accueil</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#skills">Compétences</a></li>
+          <li><a href="index.html#experience">Parcours</a></li>
+          <li><a href="index.html#portfolio">Projets</a></li>
+          <li><a href="index.html#certifications">Certifications</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="cta-btn d-none d-xl-inline-flex" href="index.html#contact">Discutons <i class="bi bi-arrow-up-right"></i></a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Gestion des impayés & renversements</h1>
+              <p class="mb-0">Projet de stage PFE · DUT Génie Informatique · CAPRAM Casablanca</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html#portfolio">Projets</a></li>
+            <li class="current">Gestion des impayés</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-8">
+            <div class="swiper gallery init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": 1,
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper">
+                <!-- Remplace ces images par tes propres captures d'écran -->
+                <div class="swiper-slide"><img src="assets/img/prj_stage_est/Picture1.png" alt="Page de Garde" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="assets/img/prj_stage_est/Picture2.png" alt="Resumé" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="assets/img/prj_stage_est/Picture3.png" alt="Introduction générale" class="img-fluid"></div>
+                <div class="swiper-slide"><img src="assets/img/prj_stage_est/Picture4.png" alt="Conclusion générale" class="img-fluid"></div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <aside class="meta-card">
+              <h3>Informations projet</h3>
+              <ul>
+                <li><span class="lbl">Catégorie</span><span class="val">Application Web (gestion interne)</span></li>
+                <li><span class="lbl">Contexte</span><span class="val">Stage PFE · CAPRAM Casablanca</span></li>
+                <li><span class="lbl">Période</span><span class="val">Avril 2025 — Juin 2025</span></li>
+                <li><span class="lbl">Stack technique</span><span class="val">Laravel · jQuery · SQL Server · Bootstrap · AJAX</span></li>
+                <li><span class="lbl">Rôle</span><span class="val">Développeur full-stack (projet individuel)</span></li>
+              </ul>
+              <a href="assets/pdf/RAPPORT_STAGE_CAPRAM_ACHRAF_CHOUKI.pdf" class="btn-main" target="_blank">
+                <i class="bi bi-file-pdf"></i> Télécharger le rapport (PDF)
+              </a>
+            </aside>
+          </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <article class="writeup" data-aos="fade-up" data-aos-delay="200">
+              <h2>Application web de gestion des impayés et renversements bancaires</h2>
+              <p class="lead">Développement d'une solution interne complémentaire à Sage 100 Cloud pour la structuration, le suivi et le traitement des règlements impayés et des renversements.</p>
+              
+              <h3>Contexte du projet</h3>
+              <p>Ce projet a été réalisé dans le cadre de mon stage de fin d'études (PFE) au sein de <strong>CAPRAM Casablanca</strong>, une entreprise spécialisée dans l'importation et la distribution de pièces et accessoires automobiles. L'objectif était de pallier les lacunes du progiciel Sage 100 Cloud, qui ne propose pas de module dédié à la gestion détaillée des impayés et des renversements bancaires.</p>
+              
+              <h3>Problématique</h3>
+              <p>L'absence de solution centralisée obligeait les équipes à recourir à des méthodes manuelles (fichiers Excel, emails, consultations croisées), entraînant des pertes de temps, des risques d'erreurs et une difficulté à assurer une traçabilité fiable des dossiers d'impayés.</p>
+
+              <h3>Architecture technique</h3>
+              <p>L'application repose sur une architecture MVC avec :</p>
+              <ul>
+                <li><strong>Backend</strong> : Laravel (PHP) — gestion de la logique métier, authentification, sessions multi-entreprises</li>
+                <li><strong>Frontend</strong> : jQuery, AJAX, Bootstrap 5, DataTables (affichage dynamique, recherche, pagination, export Excel)</li>
+                <li><strong>Base de données</strong> : SQL Server (connexion dynamique selon l'entreprise : SGICAP / SGITUR)</li>
+                <li><strong>Intégration Sage</strong> : lecture des données depuis Sage Cloud pour alimenter les paquets d'impayés et renversements</li>
+              </ul>
+
+                <h3>Fonctionnalités principales</h3>
+                <div class="row g-3 highlights">
+                <div class="col-md-4">
+                    <div class="hl">
+                    <i class="bi bi-folder-plus"></i>
+                    <div>
+                        <strong>Gestion des impayés</strong>
+                        <small class="d-block mt-1">Création de paquets, ajout d'éléments (chèques/effets), validation, impression, recherche/filtres avancés</small>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hl">
+                    <i class="bi bi-arrow-repeat"></i>
+                    <div>
+                        <strong>Gestion des renversements</strong>
+                        <small class="d-block mt-1">Traitement des rejets bancaires, création de paquets de renversement, suppression (admin uniquement)</small>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hl">
+                    <i class="bi bi-person-badge"></i>
+                    <div>
+                        <strong>Gestion des rôles (3 profils)</strong>
+                        <small class="d-block mt-1">Utilisateur 1 (création), Utilisateur 2 (validation), Administrateur (tous droits)</small>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+              <h3 class="mt-4">Sécurité et architecture multi-entreprises</h3>
+              <p>L'application gère deux entreprises distinctes (CAPRAM et TURBO) avec :</p>
+              <ul>
+                <li>Authentification sécurisée avec switch dynamique entre bases de données</li>
+                <li>Sessions Laravel pour la traçabilité des actions (créé par, date de création)</li>
+                <li>Génération automatique des références de paquets (format YY-XXX) avec vérification d'unicité</li>
+                <li>Protection CSRF et validation des entrées utilisateur</li>
+              </ul>
+
+              <h3>Outils utilisés</h3>
+              <p>Visual Studio Code, Git/GitHub, Postman (tests API), Lucidchart (diagrammes UML), SQL Server Management Studio.</p>
+
+              <h3>Résultat</h3>
+              <p>La solution est opérationnelle, déployée en environnement de test chez CAPRAM. Elle a permis d'automatiser le suivi des impayés, de réduire les délais de traitement et d'améliorer la traçabilité des opérations. Ce projet a contribué à l'obtention de la mention <strong>Très Bien</strong> lors de la soutenance devant le jury de l'EST FBS.</p>
+
+              <div class="text-center mt-5">
+                <a href="assets/pdf/RAPPORT_STAGE_CAPRAM_ACHRAF_CHOUKI.pdf" class="btn-main" target="_blank">
+                  <i class="bi bi-download"></i> Télécharger le rapport complet (PDF)
+                </a>
+              </div>
+
+            </article>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Achraf Chouki</span>
+          </a>
+          <p>Développeur web & desktop (Node.js, Electron, Laravel, Bootstrap). Étudiant ingénieur à l'EMSI Casablanca, passionné de robotique.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html#hero">Accueil</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#portfolio">Projets</a></li>
+            <li><a href="index.html#certifications">Certifications</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6 footer-links">
+          <h4>Compétences clés</h4>
+          <ul>
+            <li><a href="index.html#skills">Node.js / Electron</a></li>
+            <li><a href="index.html#skills">Laravel / PHP</a></li>
+            <li><a href="index.html#skills">Bootstrap / HTML/CSS</a></li>
+            <li><a href="index.html#skills">Robotique / Arduino</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-12 footer-contact">
+          <h4>Coordonnées</h4>
+          <p><strong>Email :</strong> achraf@chouki.dev</p>
+          <p><strong>Tél :</strong> +212 6 12 34 56 78</p>
+          <p><strong>Localisation :</strong> Casablanca, Maroc</p>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright text-center mt-4">
+      <p>© Achraf Chouki — Template adapté de Workfolio (BootstrapMade)</p>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
